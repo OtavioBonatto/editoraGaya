@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    height: 100%;
+}
+
+.nav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 16rem;
+}
+
+.inicio {    
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 90%;
+    left: 93%;
+}
+
+.sobre {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 90%;
+    left: 94%;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    background-image: url("livros.png");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+  }
+
+.nav-texts {
+    color: white;
+    position: relative;
+}
+
+.capas {
+    background-image: url('capas.png');
+    height: 31rem;
+    width: 80%;
+    background-position: center;
+    margin: auto;
+}
+
+.titulo {
+    font-family: 'Hepta Slab', serif;;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #272525;
+}
+
+.main {
+    position: absolute;
+    height: 18rem;
+    margin-top: 2rem;
+}
+
+.main-text {
+    font-family: "Times New Roman", Times, serif;
+    width: 35%;
+    padding: 2px;
+    color: #272525;
+    float: left;
+    position: relative;
+    text-align: justify;
+}
+
+.main-papers {
+    background-image: url("jornais.jpg");
+    background-size: 100% 100%;
+    width: 55%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c7cce7;
+    height: 4rem;
+}
+
+.texto-sobre {
+    background-image: url('sobre.png');
+    background-size: contain;
+    height: 66rem;
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+}
