@@ -109,7 +109,7 @@ body {
 .texto-sobre {
     background-image: url('sobre.png');
     background-size: contain;
-    height: 66rem;
+    height: 70rem;
     margin-top: 1rem;
     background-repeat: no-repeat;
 }
