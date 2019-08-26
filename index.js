@@ -8,4 +8,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'))
 });
 
-app.listen(process.env.PORT, () => console.log('servidor rodando'));
+app.get('/sobre', (req, res) => {
+    res.sendFile(path.join(__dirname + '/sobre.html'))
+});
+
+app.listen(process.env.PORT || 3000, () => console.log('servidor rodando'));
