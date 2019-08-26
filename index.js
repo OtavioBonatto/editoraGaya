@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'))
 });
 
-app.listen('3000', () => console.log('servidor rodando'));
+app.listen(process.env.PORT, () => console.log('servidor rodando'));
