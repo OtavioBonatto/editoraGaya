@@ -9,6 +9,7 @@
 
 body {
     height: 100%;
+    background-color: rgb(0, 43, 120);
 }
 
 .nav {
@@ -23,7 +24,7 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 93%;
+    left: 72%;
 }
 
 .sobre {
@@ -31,7 +32,23 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 94%;
+    left: 73%;
+}
+
+.fera {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 90%;
+    left: 74%;
+}
+
+.jornal-link {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 90%;
+    left: 75%;
 }
 
 .bg-img {
@@ -52,16 +69,6 @@ body {
     position: relative;
 }
 
-.capas {
-    background-image: url('capas.png');
-    height: 25rem;
-    width: 80%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
 .titulo {
     font-family: 'Hepta Slab', serif;;
     text-align: center;
@@ -71,34 +78,9 @@ body {
     margin-bottom: 0.5rem;
     color: #272525;
 }
-
-.main {
-    position: absolute;
-    height: 18rem;
-    margin-top: 2rem;
-}
-
-.main-text {
-    font-family: "Times New Roman", Times, serif;
-    width: 35%;
-    padding: 2px;
-    color: #272525;
-    float: left;
-    position: relative;
-    text-align: justify;
-}
-
-.main-papers {
-    background-image: url("jornais.jpg");
-    background-size: 100% 100%;
-    width: 55%;
-    height: 100%;
-    float: right;
-    position: relative;
-}
-
 .rodape {
     position: fixed;
+    margin-top: 2rem;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -108,8 +90,74 @@ body {
 
 .texto-sobre {
     background-image: url('sobre.png');
+    height: 89rem;
     background-size: contain;
-    height: 70rem;
-    margin-top: 1rem;
     background-repeat: no-repeat;
+}
+
+.autores {
+    background-image: url('capas.png');
+    height: 88rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.feira-dos-livros {
+    background-image: url('feiradoslivros.png');
+    background-size: contain;
+    height: 75rem;
+    background-repeat: no-repeat;
+}
+
+.jornal {
+    background-image: url('jornais.png');
+    background-size: contain;
+    height: 1828rem;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1440px) {
+    .inicio {
+        left: 79%;        
+    }
+
+    .sobre {
+        left: 80%;
+    }
+
+    .fera {
+        left: 81%;
+    }
+
+    .jornal-link {
+        left: 82%;
+    }
+
+    .texto-sobre {
+        background-image: url('sobre.png');
+        height: 121rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .autores {
+        background-image: url('capas.png');
+        height: 120rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .feira-dos-livros {
+        background-image: url('feiradoslivros.png');
+        background-size: contain;
+        height: 103rem;
+        background-repeat: no-repeat;
+    }
+    
+    .jornal {
+        background-image: url('jornais.png');
+        background-size: contain;
+        height: 2577rem;
+        background-repeat: no-repeat;
+    }
 }
