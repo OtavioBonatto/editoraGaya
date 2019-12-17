@@ -24,7 +24,7 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 72%;
+    left: 66%;
 }
 
 .sobre {
@@ -32,7 +32,7 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 73%;
+    left: 67%;
 }
 
 .fera {
@@ -40,7 +40,7 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 74%;
+    left: 68%;
 }
 
 .jornal-link {
@@ -48,7 +48,15 @@ body {
     position: relative;
     color: white;
     top: 90%;
-    left: 75%;
+    left: 69%;
+}
+
+.eventos {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 90%;
+    left: 70%;
 }
 
 .bg-img {
@@ -105,32 +113,43 @@ body {
 .feira-dos-livros {
     background-image: url('feiradoslivros.png');
     background-size: contain;
-    height: 75rem;
+    height: 53rem;
     background-repeat: no-repeat;
 }
 
 .jornal {
-    background-image: url('jornais.png');
+    background-image: url('jornal.png');
     background-size: contain;
-    height: 1828rem;
+    height: 1482rem;
+    background-repeat: no-repeat;
+}
+
+.imagem-eventos {
+    background-image: url('EVENTOS.png');
+    background-size: contain;
+    height: 86rem;
     background-repeat: no-repeat;
 }
 
 @media (min-width: 1440px) {
     .inicio {
-        left: 78%;        
+        left: 74%;        
     }
 
     .sobre {
-        left: 79%;
+        left: 75%;
     }
 
     .fera {
-        left: 80%;
+        left: 76%;
     }
 
     .jornal-link {
-        left: 81%;
+        left: 77%;
+    }
+
+    .eventos {
+        left: 78%;
     }
 
     .texto-sobre {
@@ -150,14 +169,21 @@ body {
     .feira-dos-livros {
         background-image: url('feiradoslivros.png');
         background-size: contain;
-        height: 103rem;
+        height: 71rem;
         background-repeat: no-repeat;
     }
     
     .jornal {
-        background-image: url('jornais.png');
+        background-image: url('jornal.png');
         background-size: contain;
-        height: 2577rem;
+        height: 2067rem;
+        background-repeat: no-repeat;
+    }
+
+    .imagem-eventos {
+        background-image: url('EVENTOS.png');
+        background-size: contain;
+        height: 124rem;
         background-repeat: no-repeat;
     }
 }
